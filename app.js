@@ -19,3 +19,12 @@ function adicionarAmigo() {
     listaHTML.appendChild(item);
   }
 }
+
+function sortearAmigo() {
+  let totalAmigos = amigos.length;
+  let numeroAleatorio = Math.random();
+  let numeroMultiplicado = numeroAleatorio * totalAmigos;
+  let numeroFinal = Math.floor(numeroMultiplicado);
+  let amigoSorteado = amigos[numeroFinal];
+  console.log(amigoSorteado);
+}
