@@ -1,14 +1,11 @@
-Documentação do Projeto: Amigo Secreto
+# Amigo Secreto
 
-1. Visão Geral
-
-* * *
+## 1. Visão Geral
 
 Este é um projeto de front-end que cria uma aplicação web para organizar um sorteio de "Amigo Secreto". O objetivo é permitir que o usuário adicione nomes de participantes a uma lista, realize um sorteio simples com um clique e reinicie o processo facilmente.
 
-1. Como o Projeto Funciona
+## 2. Como o Projeto Funciona
 
-* * *
 
 O fluxo de funcionamento da aplicação é direto e centrado no usuário:
 
@@ -19,9 +16,7 @@ O fluxo de funcionamento da aplicação é direto e centrado no usuário:
 3. **Reiniciar**: A qualquer momento, o usuário pode clicar em "Reiniciar" para limpar todos os dados — tanto a lista interna de nomes quanto as informações exibidas na tela —, permitindo que um novo sorteio comece do zero.
   
 
-3. Lógica e Funcionalidades (JavaScript)
-
-* * *
+## 3. Lógica e Funcionalidades (JavaScript)
 
 O código é estruturado em torno de uma variável principal e três funções que manipulam os dados e a interface.
 
