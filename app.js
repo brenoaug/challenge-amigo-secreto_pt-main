@@ -22,9 +22,8 @@ function adicionarAmigo() {
 
 function sortearAmigo() {
   let totalAmigos = amigos.length;
-  let numeroAleatorio = Math.random();
-  let numeroMultiplicado = numeroAleatorio * totalAmigos;
-  let numeroFinal = Math.floor(numeroMultiplicado);
-  let amigoSorteado = amigos[numeroFinal];
-  console.log(amigoSorteado);
+  let amigoSorteado = amigos[Math.floor(Math.random() * totalAmigos)];
+
+  let resultado = document.getElementById("resultado");
+  resultado.textContent = `Seu amigo secreto é: ${amigoSorteado}`;
 }
